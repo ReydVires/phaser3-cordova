@@ -1,0 +1,54 @@
+{
+    "imagePack": {
+        "path": "assets/",
+        "defaultType": "image",
+        "files": [
+            {
+                "key": "background",
+                "url": "bg.png"
+            },
+            {
+                "key": "bird",
+                "url": "bird.png"
+            },
+            {
+                "key": "ground",
+                "url": "ground.png"
+            },
+            {
+                "key": "bird_dead",
+                "url": "bird_dead.png"
+            }
+        ]
+    },
+    "audioPack": {
+        "path": "assets/audio/",
+        "defaultType": "audio",
+        "files": [
+            {
+                "key": "sfx",
+                "url": ["sndLaser.wav"]
+            }
+        ]
+    },
+    "assetsPack": {
+        "path": "assets/",
+        "files": [
+            {
+                "type": "spritesheet",
+                "key": "pipe",
+                "url": "pipe.png",
+                "frameConfig": {
+                    "frameWidth": 20,
+                    "frameHeight": 20
+                }
+            },
+            {
+                "type": "bitmapFont",
+                "key": "font",
+                "textureURL": "font/font.png",
+                "fontDataURL": "font/font.fnt"
+            }
+        ]
+    }
+}

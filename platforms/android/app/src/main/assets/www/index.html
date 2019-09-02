@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Phaser 3 - Deploy</title>
+        <meta name="viewport" content="user-scalable=0, initial-scale=1,minimum-scale=1, maximum-scale=1, width=device-width, minimal-ui=1">
+        <style>
+            html,
+            body {
+                margin: 0;
+                padding: 0;
+                image-rendering: optimizeSpeed;              /* Older versions of FF */
+                image-rendering: -webkit-optimize-contrast;  /* Webkit (non standard naming) */
+                image-rendering: -o-crisp-edges;             /* OS X & Windows Opera (12.02+) */
+                image-rendering: crisp-edges;                /* Possible future browsers. */
+                -ms-interpolation-mode: nearest-neighbor;    /* IE (non standard naming) */
+                overflow: hidden;
+                background-color: black;
+            }
+            canvas {
+                image-rendering: -moz-crisp-edges;
+                image-rendering: -webkit-crisp-edges;
+                image-rendering: pixelated;
+            }
+        </style>
+    </head>
+    <body>
+        <script src="cordova.js"></script>
+        <script src="build/App.js"></script>
+        <div id="phaser-game"></div>
+    </body>
+</html>
