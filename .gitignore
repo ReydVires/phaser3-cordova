@@ -2,4 +2,5 @@ node_modules/
 phaser_project/node_modules/
 phaser_project/package-lock.json
 platforms/android/app/build/outputs/apk/debug/*
-www/*
+www/assets/*
+www/build/*
