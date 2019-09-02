@@ -15,4 +15,3 @@ Run next commands in your terminal:
 | `npm install` | Install dependencies and launch browser with examples.|
 | `npm run-script build` | Build phaser with webpack |
 | `npm start` | Launch browser to show the result. <br> Press `Ctrl + c` to kill **http-server** process. |
-=======
