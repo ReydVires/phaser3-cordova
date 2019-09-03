@@ -4,3 +4,4 @@ phaser_project/package-lock.json
 platforms/android/app/build/outputs/apk/debug/*
 www/assets/*
 www/build/*
+run-note.txt
