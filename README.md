@@ -14,7 +14,7 @@
 
 - File of game in *phaser_project* directory
 
-- Read README in *phaser_project* directory for installation **Phaser 3**
+- Read [README](https://github.com/ReydVires/phaser3-cordova/blob/master/phaser_project/README.md) in *phaser_project* directory for installation **Phaser 3**
 
 - Build result from phaser in *www/build/* directory
 
